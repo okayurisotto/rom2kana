@@ -1,0 +1,14 @@
+{
+  "name": "rom2hira",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node ./esbuild.js build",
+    "build:watch": "node ./esbuild.js build watch"
+  },
+  "devDependencies": {
+    "@tsconfig/strictest": "^1.0.1",
+    "esbuild": "^0.14.47",
+    "typescript": "^4.7.4"
+  }
+}

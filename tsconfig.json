@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "ES2022"
+  },
+  "exclude": ["./esbuild.js", "./out/"],
+  "extends": "@tsconfig/strictest/tsconfig.json",
+  "include": ["./src/"]
+}
